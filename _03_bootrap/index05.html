@@ -15,8 +15,25 @@
             font-weight: bold;
 
         }
-        .chemistry{
+        .chemistry p{
             display: inline;
+        }
+        .math p{
+            display: inline;
+            margin-top: 15px;
+        }
+        .Infomation p{
+            display: inline;
+        }
+        pre{
+            text-align: center;
+            background-color: darkgray;
+            display: block;
+            color: #0000CC;
+        }
+        .ct{
+            color: #FF0000;
+            
         }
     </style>
 </head>
@@ -24,18 +41,23 @@
     <h1>Định dạng văn bản</h1>
     <div class="chemistry">
         <p class="key">Hóa Học:</p>
-        <p>Nước H2O; Axit Sunfuric: H2SO4 </p>
+        <i>Nước:</i> <p class="ct">H <sub>2</sub>O</p>; <i>Sunfuric:</i> <p class="ct"> H<sub>2</sub>SO<sub>4</sub></p>
     </div>
     <div class="math">
         <p class="key">Toán Học: </p>
-        <p>Phương trình bậc 2: ax^2 + bx + c = 0</p>
+        <i>Phương trình bậc 2:</i><p class="ct"> ax<sup>2</sup> + bx + c = 0</p>
     </div>
     <div class="Infomation">
         <p class="key">Tin Học:</p>
-        <p>Vòng Lặp for:</p><br>
-        <p>for i = 0 to 10 <br>
-            tong = tong + 1 <br>
-            next
+        <i>Vòng Lặp for:</i><br>
+        
+        <pre>
+            For i = 0 to 10
+
+                    tong = tong + 1;
+
+            Next        
+        </pre>
         </p>
     </div>
 </body>
