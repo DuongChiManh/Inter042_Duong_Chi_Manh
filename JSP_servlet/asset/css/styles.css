@@ -25,18 +25,27 @@ html {
 }
 /* ================= Header =================== */
 .header {
+ background-color: rgb(96, 126, 223);
  
 }
 
 .header-topbar {
     display: flex;
     justify-content: space-between;
-    margin: 15px; ;
+    padding: 20px;
+    color: #ffff;
+    border: 1px solid #ccc;
+}
+.header-topbar a {
+    text-decoration: none;
+    color: #ffff;
 }
 
 .header-navbar {
     display: flex;
     justify-content: space-around;
+    background-color: black;
+    border: 1px solid #ccc;
     
 }
 .header-navbar-menu {
@@ -52,9 +61,15 @@ html {
 }
 .header-navbar li a {
     text-decoration: none;
+    color: #ffff;
+    padding: 15px 20px;
+}
+.header-navbar li:hover a {
+    background-color: #ccc;
+    color: black;
 }
 .btn-search {
-    height: 20px;
+    height: 25px;
     margin-top: 14px;
     border-radius: 10px;
 }
@@ -62,18 +77,22 @@ html {
 .mid {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    border: 1px solid #ccc;
+    min-height: 500px;
 }
 /* ================= Slider =================== */
 .slider {
-    flex: 1;
-    margin: 20px;
+    flex: 1;  
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: rgb(110, 194, 233);
 }
 .slider li {
     list-style: none;
+    padding: 10px;
 }
 .slider li a {
-    text-align: center;
+    
     text-decoration: none;
     
 }
@@ -81,11 +100,12 @@ html {
 .content {
     flex: 4;
     margin: 20px;
+   
 }
 
 /* ================= Footer =================== */
 .footer {
-    
+    border: 1px solid #ccc;
 }
 .footer-menu {
     text-align: center;
@@ -93,4 +113,8 @@ html {
 }
 .footer-menu a {
     text-decoration: none;
+}
+.footer-menu a:hover{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
 }
