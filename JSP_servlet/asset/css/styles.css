@@ -1,0 +1,96 @@
+/* 
+    Theme name: Inter Web
+    Thme Decription: HTML/CSS
+    Author: Duong Chi Manh
+    Version: 1.0.0
+ */
+ /* ================= Tale Of Content ============
+    1, Setting
+    2, Header
+    3, Slider
+    4, Content
+    5, Footer
+ */
+/* ================= Setting =================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+/* ================= Header =================== */
+.header {
+ 
+}
+
+.header-topbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px; ;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header-navbar-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.header-navbar li {
+      margin: 20px;
+      list-style: none;
+     
+}
+.header-navbar li a {
+    text-decoration: none;
+}
+.btn-search {
+    height: 20px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+/* ================= mid(Slider vs Content =================== */
+.mid {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+/* ================= Slider =================== */
+.slider {
+    flex: 1;
+    margin: 20px;
+}
+.slider li {
+    list-style: none;
+}
+.slider li a {
+    text-align: center;
+    text-decoration: none;
+    
+}
+/* ================= Content =================== */
+.content {
+    flex: 4;
+    margin: 20px;
+}
+
+/* ================= Footer =================== */
+.footer {
+    
+}
+.footer-menu {
+    text-align: center;
+   
+}
+.footer-menu a {
+    text-decoration: none;
+}
